@@ -10,7 +10,7 @@ img {
 }
 
 h1{
-    font-size: 80px;
+    font-size: 70px;
     margin: 0px; 
 }
 
@@ -55,6 +55,7 @@ h1{
     box-shadow: 0px 5px 56px 5px #C3D900;
 }
 
+
 #incomeAndEducation{
     color:#3a86ff;
 }
@@ -95,14 +96,31 @@ a:hover {
 }
 
 
-#about-nav{ 
-    font-size: 50px;
+#about-nav, #project-nav{ 
+    font-size: 48px;
     color: #112A46; 
     font-weight: 600; 
-    margin-right: 20px;
     margin-bottom: 50px; 
+}
+
+#project-nav{ 
+    margin-right: 20px;
 }
 
 #about-nav:hover{
     color: white;
+}
+
+#project-nav:hover{
+    color: white;
+}
+
+#about-content{ 
+    width: 800px;
+    margin: auto;
+}
+
+.about-paragraph{ 
+    font-size: 24px;
+    line-height: 1.5;
 }
