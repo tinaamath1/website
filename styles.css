@@ -88,3 +88,17 @@ a:hover {
     color: white;
 
 }
+
+#about-nav{ 
+    font-size: 50px;
+    color: #112A46; 
+    font-weight: 600; 
+    display: flex; 
+    justify-content: end;
+    margin-right: 20px;
+    margin-bottom: 50px; 
+}
+
+#about-nav:hover{
+    color: white;
+}
