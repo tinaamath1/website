@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="styles.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
         <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -12,16 +12,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Over The Sink</title>
     </head>
-    <body>
-
-        <div class="container">
-            <img src="OTSlogo.svg">
-            <div class="text-overlay">
-                <span id="blinking-text">over the sink</span>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Over The Sink</div>
+            <button id="hamburger-menu" aria-label="Toggle navigation">☰</button>
+            <div class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="work/allWork.html">Work With Me</a></li>
             </div>
-        </div>
-        <button id="hp-btn" onClick="enterPortfolio()">enter</button>
+        </nav>
+    </header>
+    <body>
+        <div id="hero-container">
+            <h1>
+                <span id="hi">Hi,</span> 
+                <span id="im">I'm </span>
+                <span id="tina">Tina.</span>
+            </h1>
+            <p class="centered-text">Welcome to my digital studio, <u>Over The Sink*</u>. I'm a data visualization developer based in Utah. I enjoy programming data visualizations that are engaging and interactive. </p>
+            <p class="work-button">Check Out My Work!</p>
+            <!-- <img class="arrow" src="right-arrow.svg" onclick="scrollToSection()"/> -->
 
+            <svg class="arrow" onclick="scrollToSection()" height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	        viewBox="0 0 227.096 227.096" xml:space="preserve">
+                <g>
+                    <g>
+                        <polygon points="152.835,39.285 146.933,45.183 211.113,109.373 0,109.373 0,117.723 211.124,117.723 
+                        146.933,181.902 152.835,187.811 227.096,113.55 		"/>
+                    </g>
+                </g>
+            </svg>
+        </div>
+
+        <div id="work-section">
+            <h2 class="project-headings">"The One With All The Data" Series</h2>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
